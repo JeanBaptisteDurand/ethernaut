@@ -110,9 +110,9 @@ balanceOf(player)
 
 3) Call `transfer()` with **more than your balance**:
 ```
-transfer(player, 21)
+transfer("0x0000000000000000000000000000000000000001", 21)
 ```
-(or any address, even yourself)
+(or any address)
 
 4) Check your balance again:
 ```
